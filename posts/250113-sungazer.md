@@ -10,6 +10,7 @@ layout: layouts/post.njk
 
 <div class="post-columns">
   <div>
+    <p>Single</p>
     <p>5m 23s</p>
     <p>Performed by Staring at the Sun</p>
     <p>Written by Caleb Warwick</p>

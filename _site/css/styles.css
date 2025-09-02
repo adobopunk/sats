@@ -15,10 +15,6 @@ body {
 		line-height: 1;
 		font-size: 12px;
 	}
-	@media (max-width: 400px) {
-		line-height: 1;
-		font-size: 8px;
-	}
 }
 @font-face {
 	font-family: 'Teletactile';
@@ -60,10 +56,6 @@ a:hover {
 	fill: #ffb428; /* same base color as link */
 	transition: fill 0.3s ease, filter 0.3s ease;
 	cursor: pointer;
-
-	@media (max-width: 800px) {
-		width: 20px;
-	}
 }
 
 .social:hover {
@@ -246,20 +238,12 @@ ul {
 	font-size: 0.5rem;
 
 	@media (max-width: 800px) {
-		font-size: 0.25rem;
-		bottom: 0.25rem; /* distance from bottom */
-		left: 0.25rem; /* distance from left */
-		padding: 0.5rem 1rem;
 	}
 }
 
 .sticky-footer .footer-logo {
 	height: 10vh; /* adjust logo size */
 	width: auto;
-
-	@media (max-width: 800px) {
-		height: 5vh;
-	}
 }
 /* CRT Overlay Effects */
 .crt-overlay {
