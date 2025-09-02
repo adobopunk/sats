@@ -26,6 +26,10 @@
 <link rel="manifest" href="/assets/favicon/site.webmanifest" />
   </head>
   <body>
+    <div class="crt-overlay">
+      <div class="crt-scanlines"></div>
+      <div class="crt-glow" id="crtGlow"></div>
+    </div>
     <div class="video-bg-wrapper">
       <video autoplay muted loop playsinline class="video-bg">
         <source src="/assets/video-bg.webm" type="video/webm">
@@ -34,8 +38,8 @@
       </video>
     </div>
     <header>
-        <span class=""><a href="/">home</a> - </span>
-        <span class=""><a href="/about">about</a> - </span>
+        <span class=""><a href="/">home</a>  |  </span>
+        <span class=""><a href="/about">about</a>  |  </span>
         <span class=""><a href="/contact">contact</a></span>
     </header>
 
@@ -56,6 +60,10 @@
   <tr>
     <td><a href="/posts/250430-crystallized/"><code>/posts/250430-crystallized/</code></a></td>
     <td>Crystallized in Sand</td>
+  </tr>
+  <tr>
+    <td><a href="/posts/250809-bvf/"><code>/posts/250809-bvf/</code></a></td>
+    <td>Battle Vest Fest</td>
   </tr>
   <tr>
     <td><a href="/about/"><code>/about/</code></a></td>
@@ -94,10 +102,6 @@
     <td>Tagged “show”</td>
   </tr>
   <tr>
-    <td><a href="/posts/250809-bvf/"><code>/posts/250809-bvf/</code></a></td>
-    <td>Battle Vest Fest</td>
-  </tr>
-  <tr>
     <td><a href="/posts/250907-together/"><code>/posts/250907-together/</code></a></td>
     <td>Together</td>
   </tr>
@@ -106,9 +110,17 @@
 
     </main>
 <footer class="sticky-footer">
-	<img src="/img/logo.png" alt="Logo" class="footer-logo" />
+	<picture>
+    <source srcset="/img/logo.gif" type="image/gif">
+    <source srcset="/img/logo.webp" type="image/webp">
+   
+    <img src="/img/logo.gif" alt="Logo" class="footer-logo" />
+  </picture>
 	<span>©<span id="footer-year"></span> SATS</span>
 </footer><script src="/js/year.js"></script>
+</footer><script src="/js/crt.js"></script>
+
+
 
   </body>
 

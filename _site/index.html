@@ -26,6 +26,10 @@
 <link rel="manifest" href="/assets/favicon/site.webmanifest" />
   </head>
   <body>
+    <div class="crt-overlay">
+      <div class="crt-scanlines"></div>
+      <div class="crt-glow" id="crtGlow"></div>
+    </div>
     <div class="video-bg-wrapper">
       <video autoplay muted loop playsinline class="video-bg">
         <source src="/assets/video-bg.webm" type="video/webm">
@@ -34,8 +38,8 @@
       </video>
     </div>
     <header>
-        <span class=" active"><a href="/">home</a> - </span>
-        <span class=""><a href="/about">about</a> - </span>
+        <span class=" active"><a href="/">home</a>  |  </span>
+        <span class=""><a href="/about">about</a>  |  </span>
         <span class=""><a href="/contact">contact</a></span>
     </header>
 
@@ -93,7 +97,7 @@
   </li>
 
   <li class="post">
-    <time datetime="2025-09-07">2025-09-07</time><span>&nbsp;&nbsp;-&nbsp;</span>
+    <time datetime="2025-08-09">2025-08-09</time><span>&nbsp;&nbsp;-&nbsp;</span>
     <a class="title" href="/posts/250809-bvf/">Battle Vest Fest</a>
     
       
@@ -108,9 +112,17 @@
 
     </main>
 <footer class="sticky-footer">
-	<img src="/img/logo.png" alt="Logo" class="footer-logo" />
+	<picture>
+    <source srcset="/img/logo.gif" type="image/gif">
+    <source srcset="/img/logo.webp" type="image/webp">
+   
+    <img src="/img/logo.gif" alt="Logo" class="footer-logo" />
+  </picture>
 	<span>©<span id="footer-year"></span> SATS</span>
 </footer><script src="/js/year.js"></script>
+</footer><script src="/js/crt.js"></script>
+
+
 
   </body>
 

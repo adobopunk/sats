@@ -26,6 +26,10 @@
 <link rel="manifest" href="/assets/favicon/site.webmanifest" />
   </head>
   <body>
+    <div class="crt-overlay">
+      <div class="crt-scanlines"></div>
+      <div class="crt-glow" id="crtGlow"></div>
+    </div>
     <div class="video-bg-wrapper">
       <video autoplay muted loop playsinline class="video-bg">
         <source src="/assets/video-bg.webm" type="video/webm">
@@ -35,7 +39,7 @@
     </div>
     <header>
       {%- for entry in metadata.nav %}
-        <span class="{% if entry.url == page.url %} active{% endif %}"><a href="{{ entry.url | url }}">{{ entry.title }}</a>{% if not loop.last %} - {% endif %}</span>
+        <span class="{% if entry.url == page.url %} active{% endif %}"><a href="{{ entry.url | url }}">{{ entry.title }}</a>{% if not loop.last %}  |  {% endif %}</span>
       {%- endfor %}
     </header>
 
@@ -43,9 +47,17 @@
       {{ content | safe }}
     </main>
 <footer class="sticky-footer">
-	<img src="/img/logo.png" alt="Logo" class="footer-logo" />
+	<picture>
+    <source srcset="/img/logo.gif" type="image/gif">
+    <source srcset="/img/logo.webp" type="image/webp">
+   
+    <img src="/img/logo.gif" alt="Logo" class="footer-logo" />
+  </picture>
 	<span>©<span id="footer-year"></span> SATS</span>
 </footer><script src="/js/year.js"></script>
+</footer><script src="/js/crt.js"></script>
+
+
 
   </body>
 
