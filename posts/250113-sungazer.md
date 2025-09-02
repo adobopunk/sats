@@ -18,9 +18,9 @@ layout: layouts/post.njk
   </div>
   <div>
     <ul>
-      <li><p><a href="https://music.apple.com/us/album/sungazer-single/1789536571?uo=4">Apple Music</a></p></li>
-      <li><p><a href="https://open.spotify.com/album/7dlEBfri2TjKQOOsoIQTYy">Spotify</a></p></li>
-      <li><p><a href="https://www.deezer.com/album/693880021">Deezer</a></p></li>
+      <li><p><a href="https://music.apple.com/us/album/sungazer-single/1789536571?uo=4" target="_blank">Apple Music</a></p></li>
+      <li><p><a href="https://open.spotify.com/album/7dlEBfri2TjKQOOsoIQTYy" target="_blank">Spotify</a></p></li>
+      <li><p><a href="https://www.deezer.com/album/693880021" target="_blank">Deezer</a></p></li>
     </ul>
   </div>
 </div>

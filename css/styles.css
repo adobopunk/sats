@@ -43,6 +43,13 @@ header span {
 a {
 	text-decoration: none;
 	color: #ffb428;
+	position: relative;
+	transition: text-shadow 0.3s ease, color 0.3s ease;
+}
+a:hover {
+	color: #fff; /* makes the main text white so the RGB pops */
+	text-shadow: 4px 0 rgba(255, 0, 0, 0.376), -4px 0 rgba(0, 255, 255, 0.473),
+		0 4px rgba(0, 0, 255, 0.45), 0 -4px rgba(0, 255, 0, 0.385);
 }
 
 .tag,
@@ -224,7 +231,6 @@ ul {
 	height: 10vh; /* adjust logo size */
 	width: auto;
 }
-
 /* CRT Overlay Effects */
 .crt-overlay {
 	position: fixed;
@@ -248,8 +254,8 @@ ul {
 		0deg,
 		transparent,
 		transparent 2px,
-		rgba(255, 55, 0, 0.06) 6px,
-		rgba(255, 128, 0, 0.06) 10px
+		rgba(255, 119, 0, 0.06) 6px,
+		rgba(255, 136, 0, 0.06) 4px
 	);
 	animation: crtScanlineMove 0.1s linear infinite;
 	mix-blend-mode: overlay;
@@ -271,9 +277,9 @@ ul {
 	height: 200px;
 	background: radial-gradient(
 		circle,
-		rgba(255, 128, 0, 0.25) 0%,
-		rgba(255, 149, 0, 0.15) 25%,
-		rgba(255, 162, 0, 0.05) 50%,
+		rgba(255, 115, 0, 0.305) 0%,
+		rgba(255, 136, 0, 0.15) 25%,
+		rgba(255, 25, 0, 0.05) 50%,
 		transparent 70%
 	);
 	border-radius: 50%;
@@ -300,8 +306,6 @@ ul {
 	z-index: 1;
 }
 
-/* Remove body flicker to prevent scrollbar issues */
-/* Instead add subtle flicker to specific elements */
 .crt-overlay::after {
 	content: '';
 	position: absolute;
@@ -329,9 +333,46 @@ ul {
 	}
 }
 
-/* Add subtle text glow for CRT feel */
-body * {
-	text-shadow: 0 0 2px rgba(255, 255, 255, 0.1);
+/* NEW: Mouse distortion effect */
+.crt-distortion {
+	position: absolute;
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+	opacity: 0;
+	transition: opacity 0.3s ease, transform 0.15s ease;
+	transform: translate(-50%, -50%);
+	background: radial-gradient(
+		circle,
+		transparent 30%,
+		rgba(255, 100, 100, 0.05) 40%,
+		rgba(100, 255, 100, 0.03) 50%,
+		rgba(100, 100, 255, 0.05) 60%,
+		transparent 70%
+	);
+	z-index: 4;
+	animation: distortionWave 2s ease-in-out infinite;
+	mix-blend-mode: multiply;
+}
+
+@keyframes distortionWave {
+	0%,
+	100% {
+		transform: translate(-50%, -50%) scale(1) rotate(0deg);
+		filter: blur(0px);
+	}
+	25% {
+		transform: translate(-50%, -50%) scale(1.05) rotate(1deg);
+		filter: blur(0.5px);
+	}
+	50% {
+		transform: translate(-50%, -50%) scale(0.95) rotate(-1deg);
+		filter: blur(0.3px);
+	}
+	75% {
+		transform: translate(-50%, -50%) scale(1.02) rotate(0.5deg);
+		filter: blur(0.2px);
+	}
 }
 
 /* Mobile optimization */
@@ -340,18 +381,12 @@ body * {
 		opacity: 0.3;
 	}
 
-	.crt-glow {
+	.crt-glow,
+	.crt-distortion {
 		display: none;
 	}
-}
-/* Mobile optimization: fully remove CRT effects */
-@media (max-width: 768px) {
-	.crt-overlay {
-		display: none !important;
-	}
 
-	/* Also disable text glow for performance */
-	body * {
-		text-shadow: none !important;
+	.crt-grain {
+		opacity: 0.15; /* Less intense on mobile */
 	}
 }

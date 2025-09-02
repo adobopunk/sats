@@ -18,9 +18,9 @@ layout: layouts/post.njk
   </div>
   <div>
     <ul>
-      <li><p><a href="https://music.apple.com/us/album/crystallized-in-sand-single/1810415287">Apple Music</a></p></li>
-      <li><p><a href="https://open.spotify.com/album/3R0txeK552TVDcNa8dWc3c">Spotify</a></p></li>
-      <li><p><a href="https://www.deezer.com/us/album/747088731">Deezer</a></p></li>
+      <li><p><a href="https://music.apple.com/us/album/crystallized-in-sand-single/1810415287" target="_blank">Apple Music</a></p></li>
+      <li><p><a href="https://open.spotify.com/album/3R0txeK552TVDcNa8dWc3c" target="_blank">Spotify</a></p></li>
+      <li><p><a href="https://www.deezer.com/us/album/747088731" target="_blank">Deezer</a></p></li>
     </ul>
   </div>
 </div>

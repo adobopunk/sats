@@ -12,5 +12,5 @@ Show posts #} {% set showPosts = [] %} {% for post in collections.posts %} {% if
 post.data.tags and "show" in post.data.tags %} {% set showPosts =
 showPosts.concat([post]) %} {% endif %} {% endfor %} {% if showPosts | length %}
 <h2>Shows</h2>
-{% set postslist = showPosts %} {% include "postslist.njk" %} {% endif %}
-
+{% set postslist = showPosts %} {% include "postslist.njk" %} {% endif %} {%
+include "socials.njk" %}
