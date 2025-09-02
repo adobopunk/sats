@@ -3,34 +3,44 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Blog Name</title>
-    <meta name="description" content="I am writing about my experiences as a naval navel-gazer.">
+    <title>Staring at the Sun</title>
+    <meta name="description" content="The Sun sees all">
     <link rel="stylesheet" href="/css/styles.css">
-    <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="Your Blog Name">
-    <link rel="alternate" href="/feed/feed.json" type="application/json" title="Your Blog Name">
+    <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="Staring at the Sun">
+    <link rel="alternate" href="/feed/feed.json" type="application/json" title="Staring at the Sun">
     <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Your Blog Name">
-    <meta property="og:url" content="https://example.com/page-list/">
-    <meta property="og:title" content="Your Blog Name">
-    <meta property="og:description" content="I am writing about my experiences as a naval navel-gazer.">
+    <meta property="og:site_name" content="Staring at the Sun">
+    <meta property="og:url" content="https://sats.band/page-list/">
+    <meta property="og:title" content="Staring at the Sun">
+    <meta property="og:description" content="The Sun sees all">
 
     <meta property="twitter:card" content="summary">
-    <meta property="twitter:url" content="https://example.com/page-list/">
-    <meta property="twitter:title" content="Your Blog Name">
-    <meta property="twitter:description" content="I am writing about my experiences as a naval navel-gazer.">
+    <meta property="twitter:url" content="https://sats.band/page-list/">
+    <meta property="twitter:title" content="Staring at the Sun">
+    <meta property="twitter:description" content="The Sun sees all">
+
+    <link rel="icon" type="image/png" href="/assets/favicon/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/svg+xml" href="/assets/favicon/favicon.svg" />
+<link rel="shortcut icon" href="/assets/favicon/favicon.ico" />
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png" />
+<link rel="manifest" href="/assets/favicon/site.webmanifest" />
   </head>
   <body>
+    <div class="video-bg-wrapper">
+      <video autoplay muted loop playsinline class="video-bg">
+        <source src="/assets/video-bg.webm" type="video/webm">
+        <source src="/assets/video-bg.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
     <header>
         <span class=""><a href="/">home</a> - </span>
-        <span class=""><a href="/posts">posts</a> - </span>
         <span class=""><a href="/about">about</a> - </span>
-        <span class=""><a href="/contact">contact</a> - </span>
-        <span class=""><a href="/feed/feed.xml">rss</a> - </span>
-        <span class=""><a href="/search">search</a></span>
+        <span class=""><a href="/contact">contact</a></span>
     </header>
 
     <main class="tmpl-home">
-      <h1>Your Blog Name</h1>
+      <h1>Staring at the Sun</h1>
 <table>
   <thead>
     <tr>
@@ -40,24 +50,16 @@
   </thead>
   <tbody>
   <tr>
-    <td><a href="/posts/firstpost/"><code>/posts/firstpost/</code></a></td>
-    <td>This is my first post</td>
+    <td><a href="/posts/250113-sungazer/"><code>/posts/250113-sungazer/</code></a></td>
+    <td>Sungazer</td>
   </tr>
   <tr>
-    <td><a href="/posts/secondpost/"><code>/posts/secondpost/</code></a></td>
-    <td>This is my second post</td>
-  </tr>
-  <tr>
-    <td><a href="/posts/thirdpost/"><code>/posts/thirdpost/</code></a></td>
-    <td>This is my third post</td>
-  </tr>
-  <tr>
-    <td><a href="/posts/fourthpost/"><code>/posts/fourthpost/</code></a></td>
-    <td>This is my fourth post</td>
+    <td><a href="/posts/250430-crystallized/"><code>/posts/250430-crystallized/</code></a></td>
+    <td>Crystallized in Sand</td>
   </tr>
   <tr>
     <td><a href="/about/"><code>/about/</code></a></td>
-    <td>About Me</td>
+    <td>About the Band</td>
   </tr>
   <tr>
     <td><a href="/posts/"><code>/posts/</code></a></td>
@@ -80,24 +82,36 @@
     <td></td>
   </tr>
   <tr>
-    <td><a href="/tags/another-tag/"><code>/tags/another-tag/</code></a></td>
-    <td>Tagged “another tag”</td>
+    <td><a href="/tags/music/"><code>/tags/music/</code></a></td>
+    <td>Tagged “music”</td>
   </tr>
   <tr>
-    <td><a href="/tags/number-2/"><code>/tags/number-2/</code></a></td>
-    <td>Tagged “number 2”</td>
+    <td><a href="/tags/single/"><code>/tags/single/</code></a></td>
+    <td>Tagged “single”</td>
   </tr>
   <tr>
-    <td><a href="/tags/second-tag/"><code>/tags/second-tag/</code></a></td>
-    <td>Tagged “second tag”</td>
+    <td><a href="/tags/show/"><code>/tags/show/</code></a></td>
+    <td>Tagged “show”</td>
   </tr>
   <tr>
-    <td><a href="/tags/posts-with-two-tags/"><code>/tags/posts-with-two-tags/</code></a></td>
-    <td>Tagged “posts with two tags”</td>
+    <td><a href="/posts/250809-bvf/"><code>/posts/250809-bvf/</code></a></td>
+    <td>Battle Vest Fest</td>
+  </tr>
+  <tr>
+    <td><a href="/posts/250907-together/"><code>/posts/250907-together/</code></a></td>
+    <td>Together</td>
   </tr>
   </tbody>
 </table>
 
     </main>
+<footer class="sticky-footer">
+	<img src="/img/logo.png" alt="Logo" class="footer-logo" />
+	<span>©<span id="footer-year"></span> SATS</span>
+</footer><script src="/js/year.js"></script>
+
   </body>
+
+
+  
 </html>

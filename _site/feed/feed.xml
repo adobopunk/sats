@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-	<title>Your Blog Name</title>
-	<subtitle>I am writing about my experiences as a naval navel-gazer.</subtitle>
+	<title>Staring at the Sun</title>
+	<subtitle>The Sun sees all.</subtitle>
 	
-	<link href="https://example.com/feed/feed.xml" rel="self"/>
-	<link href="https://example.com/"/>
-	<updated>2018-09-30T00:00:00Z</updated>
+	<link href="https://sats.band/feed/feed.xml" rel="self"/>
+	<link href="https://sats.band/"/>
+	<updated>2025-09-07T00:00:00Z</updated>
 	<id>https://example.com/</id>
 	<author>
 		<name>Your Name Here</name>
@@ -13,58 +13,97 @@
 	</author>
 	
 	<entry>
-		<title>This is my fourth post</title>
-		<link href="https://example.com/posts/fourthpost/"/>
-		<updated>2018-09-30T00:00:00Z</updated>
-		<id>https://example.com/posts/fourthpost/</id>
-		<content type="html">&lt;p&gt;Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.&lt;/p&gt;
-&lt;p&gt;Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.&lt;/p&gt;
-&lt;h2 id=&quot;section-header&quot; tabindex=&quot;-1&quot;&gt;Section Header &lt;a class=&quot;direct-link&quot; href=&quot;https://example.com/posts/fourthpost/#section-header&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.&lt;/p&gt;
-&lt;p&gt;&lt;mark&gt;This is a highlighted text&lt;/mark&gt;&lt;/p&gt;
+		<title>Together</title>
+		<link href="https://sats.band/posts/250907-together/"/>
+		<updated>2025-09-07T00:00:00Z</updated>
+		<id>https://sats.band/posts/250907-together/</id>
+		<content type="html">&lt;p&gt;September 7, 2025&lt;/p&gt;
+&lt;p&gt;6pm - 9pm&lt;/p&gt;
+&lt;p&gt;Fingernail at Howard Amon&lt;/p&gt;
+&lt;p&gt;Richland, WA&lt;/p&gt;
+&lt;p&gt;with&lt;/p&gt;
+&lt;p&gt;ooooz&lt;/p&gt;
+&lt;p&gt;SuddenlyTuesday&lt;/p&gt;
+&lt;picture&gt;
+    &lt;source srcset=&quot;https://sats.band/img/together.webp&quot; type=&quot;image/webp&quot; /&gt;
+    &lt;source srcset=&quot;https://sats.band/img/together.JPG&quot; type=&quot;image/jpeg&quot; /&gt;
+    &lt;img src=&quot;https://sats.band/img/together.JPG&quot; alt=&quot;&#39;Together. Bands!!: SuddenlyTuesday, ooooz, Staring at the Sun. Protest/Concert!! Sept 7th, 6-9pm. @ Howard Amon Fingernail. Snacks &amp; Water &amp; Info on local orgs provided!! Our goals!! Raise money for the PCRF. Bring people together through music. Raise awareness to the genocide in Gaza/Dictatorship path of the U.S. OSCO - off-screen community outreach.&#39;&quot; /&gt;
+  &lt;/picture&gt;
 </content>
 	</entry>
 	
 	<entry>
-		<title>This is my third post</title>
-		<link href="https://example.com/posts/thirdpost/"/>
-		<updated>2018-08-24T00:00:00Z</updated>
-		<id>https://example.com/posts/thirdpost/</id>
-		<content type="html">&lt;p&gt;Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.&lt;/p&gt;
-&lt;pre class=&quot;language-diff-js&quot;&gt;&lt;code class=&quot;language-diff-js&quot;&gt;// this is a command&lt;br /&gt;function myCommand() {&lt;br /&gt;&lt;span class=&quot;token inserted-sign inserted language-js&quot;&gt;&lt;span class=&quot;token prefix inserted&quot;&gt;+&lt;/span&gt;	&lt;span class=&quot;token keyword&quot;&gt;let&lt;/span&gt; counter &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;br /&gt;&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;token deleted-sign deleted language-js&quot;&gt;&lt;span class=&quot;token prefix deleted&quot;&gt;-&lt;/span&gt;	counter&lt;span class=&quot;token operator&quot;&gt;++&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;br /&gt;&lt;/span&gt;&lt;br /&gt;}&lt;br /&gt;&lt;br /&gt;// Test with a line break above this line.&lt;br /&gt;console.log(&#39;Test&#39;);&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.&lt;/p&gt;
-&lt;h2 id=&quot;section-header&quot; tabindex=&quot;-1&quot;&gt;Section Header &lt;a class=&quot;direct-link&quot; href=&quot;https://example.com/posts/thirdpost/#section-header&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.&lt;/p&gt;
+		<title>Battle Vest Fest</title>
+		<link href="https://sats.band/posts/250809-bvf/"/>
+		<updated>2025-09-07T00:00:00Z</updated>
+		<id>https://sats.band/posts/250809-bvf/</id>
+		<content type="html">&lt;p&gt;August 9, 2025&lt;/p&gt;
+&lt;p&gt;6:20pm&lt;/p&gt;
+&lt;p&gt;Emerald of Siam&lt;/p&gt;
+&lt;p&gt;Richland, WA&lt;/p&gt;
+&lt;picture&gt;
+    &lt;source srcset=&quot;https://sats.band/img/bvf25.webp&quot; type=&quot;image/webp&quot; /&gt;
+    &lt;source srcset=&quot;https://sats.band/img/bvf25.JPG&quot; type=&quot;image/jpeg&quot; /&gt;
+    &lt;img src=&quot;https://sats.band/img/bvf25.JPG&quot; alt=&quot;&#39;Together. Bands!!: SuddenlyTuesday, ooooz, Staring at the Sun. Protest/Concert!! Sept 7th, 6-9pm. @ Howard Amon Fingernail. Snacks &amp; Water &amp; Info on local orgs provided!! Our goals!! Raise money for the PCRF. Bring people together through music. Raise awareness to the genocide in Gaza/Dictatorship path of the U.S. OSCO - off-screen community outreach.&#39;&quot; /&gt;
+  &lt;/picture&gt;
 </content>
 	</entry>
 	
 	<entry>
-		<title>This is my second post</title>
-		<link href="https://example.com/posts/secondpost/"/>
-		<updated>2018-07-04T00:00:00Z</updated>
-		<id>https://example.com/posts/secondpost/</id>
-		<content type="html">&lt;p&gt;Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.&lt;/p&gt;
-&lt;h2 id=&quot;section-header&quot; tabindex=&quot;-1&quot;&gt;Section Header &lt;a class=&quot;direct-link&quot; href=&quot;https://example.com/posts/secondpost/#section-header&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&quot;https://example.com/posts/firstpost/&quot;&gt;First post&lt;/a&gt;
-&lt;a href=&quot;https://example.com/posts/thirdpost/&quot;&gt;Third post&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;let i = 1;&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.&lt;/p&gt;
-&lt;/blockquote&gt;
+		<title>Crystallized in Sand</title>
+		<link href="https://sats.band/posts/250430-crystallized/"/>
+		<updated>2025-04-30T00:00:00Z</updated>
+		<id>https://sats.band/posts/250430-crystallized/</id>
+		<content type="html">&lt;div class=&quot;post-columns&quot;&gt;
+  &lt;div&gt;
+    &lt;p&gt;4m 32s&lt;/p&gt;
+    &lt;p&gt;Performed by Staring at the Sun&lt;/p&gt;
+    &lt;p&gt;Written by Caleb Warwick&lt;/p&gt;
+    &lt;p&gt;Produced by Caleb Warwick&lt;/p&gt;
+    &lt;p&gt;Art Direction by Tifa Jade&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://music.apple.com/us/album/crystallized-in-sand-single/1810415287&quot;&gt;Apple Music&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://open.spotify.com/album/3R0txeK552TVDcNa8dWc3c&quot;&gt;Spotify&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://www.deezer.com/us/album/747088731&quot;&gt;Deezer&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;picture&gt;
+  &lt;source srcset=&quot;https://sats.band/img/crystallized.webp&quot; type=&quot;image/webp&quot; /&gt;
+  &lt;source srcset=&quot;https://sats.band/img/crystallized.jpg&quot; type=&quot;image/jpeg&quot; /&gt;
+  &lt;img src=&quot;https://sats.band/img/crystallized.jpg&quot; alt=&quot;A female figure covered in flowers sits in front of a tv screen shining bright light directly at her, with rays of a sun emerging from the tv set.&quot; /&gt;
+&lt;/picture&gt;
 </content>
 	</entry>
 	
 	<entry>
-		<title>This is my first post</title>
-		<link href="https://example.com/posts/firstpost/"/>
-		<updated>2018-05-01T00:00:00Z</updated>
-		<id>https://example.com/posts/firstpost/</id>
-		<content type="html">&lt;p&gt;Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.&lt;/p&gt;
-&lt;p&gt;Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.&lt;/p&gt;
-&lt;h2 id=&quot;section-header&quot; tabindex=&quot;-1&quot;&gt;Section Header &lt;a class=&quot;direct-link&quot; href=&quot;https://example.com/posts/firstpost/#section-header&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.&lt;/p&gt;
-&lt;pre class=&quot;language-diff-js&quot;&gt;&lt;code class=&quot;language-diff-js&quot;&gt;// this is a command&lt;br /&gt;function myCommand() {&lt;br /&gt;&lt;span class=&quot;token inserted-sign inserted language-js&quot;&gt;&lt;span class=&quot;token prefix inserted&quot;&gt;+&lt;/span&gt;	&lt;span class=&quot;token keyword&quot;&gt;let&lt;/span&gt; counter &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;token prefix inserted&quot;&gt;+&lt;/span&gt;	counter&lt;span class=&quot;token operator&quot;&gt;++&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;br /&gt;&lt;/span&gt;}&lt;br /&gt;&lt;br /&gt;// Test with a line break above this line.&lt;br /&gt;console.log(&#39;Test&#39;);&lt;/code&gt;&lt;/pre&gt;
+		<title>Sungazer</title>
+		<link href="https://sats.band/posts/250113-sungazer/"/>
+		<updated>2025-01-13T00:00:00Z</updated>
+		<id>https://sats.band/posts/250113-sungazer/</id>
+		<content type="html">&lt;div class=&quot;post-columns&quot;&gt;
+  &lt;div&gt;
+    &lt;p&gt;5m 23s&lt;/p&gt;
+    &lt;p&gt;Performed by Staring at the Sun&lt;/p&gt;
+    &lt;p&gt;Written by Caleb Warwick&lt;/p&gt;
+    &lt;p&gt;Produced by Caleb Warwick&lt;/p&gt;
+    &lt;p&gt;Art Direction by Tifa Jade&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://music.apple.com/us/album/sungazer-single/1789536571?uo=4&quot;&gt;Apple Music&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://open.spotify.com/album/7dlEBfri2TjKQOOsoIQTYy&quot;&gt;Spotify&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://www.deezer.com/album/693880021&quot;&gt;Deezer&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;picture&gt;
+  &lt;source srcset=&quot;https://sats.band/img/sungazer.webp&quot; type=&quot;image/webp&quot; /&gt;
+  &lt;source srcset=&quot;https://sats.band/img/sungazer.jpg&quot; type=&quot;image/jpeg&quot; /&gt;
+  &lt;img src=&quot;https://sats.band/img/sungazer.jpg&quot; alt=&quot;A female figure covered in flowers sits in front of a tv screen shining bright light directly at her, with rays of a sun emerging from the tv set.&quot; /&gt;
+&lt;/picture&gt;
 </content>
 	</entry>
 </feed>

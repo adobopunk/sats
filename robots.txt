@@ -58,4 +58,4 @@ Disallow: /
 Allow: /index.html
 
 
-Sitemap: https://goodloser.me/sitemap.xml
+Sitemap: https://_____/sitemap.xml

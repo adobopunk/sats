@@ -6,4 +6,4 @@ templateClass: tmpl-post
 
 <h1>Contact</h1>
 
-<p>All the different ways you can reach me.</p>
+<p><a href="mailto:booking@sats.band">booking@sats.band</a></p>

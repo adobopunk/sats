@@ -3,30 +3,40 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Blog Name</title>
-    <meta name="description" content="I am writing about my experiences as a naval navel-gazer.">
+    <title>Staring at the Sun</title>
+    <meta name="description" content="The Sun sees all">
     <link rel="stylesheet" href="/css/styles.css">
-    <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="Your Blog Name">
-    <link rel="alternate" href="/feed/feed.json" type="application/json" title="Your Blog Name">
+    <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="Staring at the Sun">
+    <link rel="alternate" href="/feed/feed.json" type="application/json" title="Staring at the Sun">
     <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Your Blog Name">
-    <meta property="og:url" content="https://example.com/tags/">
-    <meta property="og:title" content="Your Blog Name">
-    <meta property="og:description" content="I am writing about my experiences as a naval navel-gazer.">
+    <meta property="og:site_name" content="Staring at the Sun">
+    <meta property="og:url" content="https://sats.band/tags/">
+    <meta property="og:title" content="Staring at the Sun">
+    <meta property="og:description" content="The Sun sees all">
 
     <meta property="twitter:card" content="summary">
-    <meta property="twitter:url" content="https://example.com/tags/">
-    <meta property="twitter:title" content="Your Blog Name">
-    <meta property="twitter:description" content="I am writing about my experiences as a naval navel-gazer.">
+    <meta property="twitter:url" content="https://sats.band/tags/">
+    <meta property="twitter:title" content="Staring at the Sun">
+    <meta property="twitter:description" content="The Sun sees all">
+
+    <link rel="icon" type="image/png" href="/assets/favicon/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/svg+xml" href="/assets/favicon/favicon.svg" />
+<link rel="shortcut icon" href="/assets/favicon/favicon.ico" />
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png" />
+<link rel="manifest" href="/assets/favicon/site.webmanifest" />
   </head>
   <body>
+    <div class="video-bg-wrapper">
+      <video autoplay muted loop playsinline class="video-bg">
+        <source src="/assets/video-bg.webm" type="video/webm">
+        <source src="/assets/video-bg.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
     <header>
         <span class=""><a href="/">home</a> - </span>
-        <span class=""><a href="/posts">posts</a> - </span>
         <span class=""><a href="/about">about</a> - </span>
-        <span class=""><a href="/contact">contact</a> - </span>
-        <span class=""><a href="/feed/feed.xml">rss</a> - </span>
-        <span class=""><a href="/search">search</a></span>
+        <span class=""><a href="/contact">contact</a></span>
     </header>
 
     <main>
@@ -34,18 +44,23 @@
 
 
   
-  <a class="tag" href="/tags/another-tag/" class="post-tag">another tag</a>
+  <a class="tag" href="/tags/music/" class="post-tag">music</a>
 
   
-  <a class="tag" href="/tags/number-2/" class="post-tag">number 2</a>
+  <a class="tag" href="/tags/single/" class="post-tag">single</a>
 
   
-  <a class="tag" href="/tags/second-tag/" class="post-tag">second tag</a>
-
-  
-  <a class="tag" href="/tags/posts-with-two-tags/" class="post-tag">posts with two tags</a>
+  <a class="tag" href="/tags/show/" class="post-tag">show</a>
 
 
     </main>
+<footer class="sticky-footer">
+	<img src="/img/logo.png" alt="Logo" class="footer-logo" />
+	<span>©<span id="footer-year"></span> SATS</span>
+</footer><script src="/js/year.js"></script>
+
   </body>
+
+
+  
 </html>

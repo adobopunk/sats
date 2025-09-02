@@ -18,8 +18,21 @@
     <meta property="twitter:url" content="{{ metadata.url + page.url.slice(1) }}">
     <meta property="twitter:title" content="{{ title or metadata.title }}">
     <meta property="twitter:description" content="{{ description or metadata.description }}">
+
+    <link rel="icon" type="image/png" href="/assets/favicon/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/svg+xml" href="/assets/favicon/favicon.svg" />
+<link rel="shortcut icon" href="/assets/favicon/favicon.ico" />
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png" />
+<link rel="manifest" href="/assets/favicon/site.webmanifest" />
   </head>
   <body>
+    <div class="video-bg-wrapper">
+      <video autoplay muted loop playsinline class="video-bg">
+        <source src="/assets/video-bg.webm" type="video/webm">
+        <source src="/assets/video-bg.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
     <header>
       {%- for entry in metadata.nav %}
         <span class="{% if entry.url == page.url %} active{% endif %}"><a href="{{ entry.url | url }}">{{ entry.title }}</a>{% if not loop.last %} - {% endif %}</span>
@@ -29,5 +42,13 @@
     <main{% if templateClass %} class="{{ templateClass }}"{% endif %}>
       {{ content | safe }}
     </main>
+<footer class="sticky-footer">
+	<img src="/img/logo.png" alt="Logo" class="footer-logo" />
+	<span>©<span id="footer-year"></span> SATS</span>
+</footer><script src="/js/year.js"></script>
+
   </body>
+
+
+  
 </html>
