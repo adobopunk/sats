@@ -17,7 +17,7 @@ templateClass: tmpl-post
 		endfor %} {% if showPosts | length %}
 		<h2>Shows</h2>
 		{% set postslist = showPosts %} {% include "postslist.njk" %} {% endif
-		%}
+		%}{% include "socials.njk" %}
 	</div>
 
 	<div class="right-col">
