@@ -5,7 +5,7 @@ html {
 }
 body {
 	line-height: 1.4;
-	font-size: 16px;
+	font-size: 14px;
 	margin: 4em 4em auto;
 	padding: 0 0.55em;
 
@@ -13,7 +13,7 @@ body {
 
 	@media (max-width: 800px) {
 		line-height: 1;
-		font-size: 12px;
+		font-size: 10px;
 	}
 }
 @font-face {
@@ -71,7 +71,7 @@ time.post {
 	display: none;
 	color: #fff;
 	text-transform: uppercase;
-	font-size: 10.5px;
+	font-size: 8px;
 	border: #fff solid 0.5px;
 	border-radius: 2px;
 	padding: 4px;
@@ -91,7 +91,7 @@ code {
 	color: #fff;
 	border-radius: 5px;
 	padding: 5px;
-	font-size: 12px;
+	font-size: 10px;
 	overflow-x: auto;
 	width: 90%;
 	margin: auto;
@@ -236,14 +236,15 @@ ul {
 	z-index: 1000; /* sit above other content */
 	color: #fff;
 	font-size: 0.5rem;
-
-	@media (max-width: 800px) {
-	}
 }
 
 .sticky-footer .footer-logo {
 	height: 10vh; /* adjust logo size */
 	width: auto;
+
+	@media (max-width: 800px) {
+		height: 5vh;
+	}
 }
 /* CRT Overlay Effects */
 .crt-overlay {
