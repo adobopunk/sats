@@ -10,6 +10,12 @@
     "url": "https://example.com/about-me/"
   },
   "items": [{
+      "id": "https://sats.band/posts/251011-4allofus/",
+      "url": "https://sats.band/posts/251011-4allofus/",
+      "title": "4 All Of Us",
+      "content_html": "<p>October 11, 2025</p>\n<p>6pm - 10pm</p>\n<p>Flying Z Farm</p>\n<p>Benton City, WA</p>\n<p>with</p>\n<p>Hayes Noble</p>\n<p>A Quiet Life</p>\n<picture>\n    <source srcset=\"https://sats.band/img/osco1025.webp\" type=\"image/webp\" />\n    <source srcset=\"https://sats.band/img/osco1025.jpg\" type=\"image/jpeg\" />\n    <img src=\"https://sats.band/img/osco1025.webp\" alt=\"4 All Of Us! Costume Party Benefit Concert. October 11th, 6 to 10pm @ Flying Z - 37206 Kendall Rd, Benton City. Accepting Donations for TCD. Staring at the Sun, Hayes Noble, Karaoke After Party! TCD in Tri-Cities Food Co-Op, Richland WA @TriCitiesDistribution on Instagram.\" />\n  </picture>\n",
+      "date_published": "2025-10-11T00:00:00Z"
+    },{
       "id": "https://sats.band/posts/250907-together/",
       "url": "https://sats.band/posts/250907-together/",
       "title": "Together",

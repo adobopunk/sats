@@ -1,9 +1,10 @@
 ---
-layout: layouts/base.njk
+layout: layouts/post.njk
 title: Contact
 templateClass: tmpl-post
 ---
 
-<h1>Contact</h1>
-
+<p>Book us:</p>
 <p><a href="mailto:booking@sats.band">booking@sats.band</a></p>
+<p>Other Inquiries:</p>
+<p><a href="mailto:booking@sats.band">info@sats.band</a></p>

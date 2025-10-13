@@ -1,12 +1,15 @@
 ---
 layout: layouts/base.njk
+title: Staring At The Sun
 ---
 
 {# Music posts #} {% set musicPosts = [] %} {% for post in collections.posts %}
 {% if post.data.tags and "music" in post.data.tags %} {% set musicPosts =
 musicPosts.concat([post]) %} {% endif %} {% endfor %} {% if musicPosts | length
 %}
+
 <h2>Releases</h2>
+
 {% set postslist = musicPosts %} {% include "postslist.njk" %} {% endif %} {#
 Show posts #} {% set showPosts = [] %} {% for post in collections.posts %} {% if
 post.data.tags and "show" in post.data.tags %} {% set showPosts =

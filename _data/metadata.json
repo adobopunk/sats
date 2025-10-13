@@ -29,6 +29,10 @@
 			"url": "/about"
 		},
 		{
+			"title": "press",
+			"url": "/press"
+		},
+		{
 			"title": "contact",
 			"url": "/contact"
 		}
