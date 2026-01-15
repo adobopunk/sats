@@ -5,19 +5,27 @@ templateClass: tmpl-post
 
 <div class="layout">
 	<div class="left-col">
-		{# Music posts #} {% set musicPosts = [] %} {% for post in
-		collections.posts %} {% if post.data.tags and "music" in
-		post.data.tags %} {% set musicPosts = musicPosts.concat([post]) %} {%
-		endif %} {% endfor %} {% if musicPosts | length %}
+		{# Music posts #} {% set musicPosts = [] %} {% set totalMusicPosts = 0
+		%} {% for post in collections.posts %} {% if post.data.tags and
+		"music" in post.data.tags %} {% set totalMusicPosts = totalMusicPosts
+		+ 1 %} {% if musicPosts.length < 3 %} {% set musicPosts =
+		musicPosts.concat([post]) %} {% endif %} {% endif %} {% endfor %} {%
+		if musicPosts | length %}
 		<h2>Releases</h2>
-		{% set postslist = musicPosts %} {% include "postslist.njk" %} {%
-		endif %} {# Show posts #} {% set showPosts = [] %} {% for post in
-		collections.posts %} {% if post.data.tags and "show" in post.data.tags
-		%} {% set showPosts = showPosts.concat([post]) %} {% endif %} {%
-		endfor %} {% if showPosts | length %}
+		{% set postslist = musicPosts %} {% include "postslist.njk" %} {% if
+		totalMusicPosts > 3 %}
+		<a href="/tags/music/" class="more-link">More music →</a>
+		{% endif %} {% endif %} {# Show posts #} {% set showPosts = [] %} {%
+		set totalShowPosts = 0 %} {% for post in collections.posts %} {% if
+		post.data.tags and "show" in post.data.tags %} {% set totalShowPosts =
+		totalShowPosts + 1 %} {% if showPosts.length < 5 %} {% set showPosts =
+		showPosts.concat([post]) %} {% endif %} {% endif %} {% endfor %} {% if
+		showPosts | length %}
 		<h2>Shows</h2>
-		{% set postslist = showPosts %} {% include "postslist.njk" %} {% endif
-		%}{% include "socials.njk" %}
+		{% set postslist = showPosts %} {% include "postslist.njk" %} {% if
+		totalShowPosts > 5 %}
+		<a href="/tags/show/" class="more-link">More shows →</a>
+		{% endif %} {% endif %} {% include "socials.njk" %}
 	</div>
 
 	<div class="right-col">
@@ -32,9 +40,7 @@ templateClass: tmpl-post
 			<a class="tag" href="{{ tagUrl | url }}">{{ tag }}</a>
 			{%- endfor %}
 		</div>
-
 		{{ content | safe }}
-
 		{%- if collections.posts %} {%- set nextPost = collections.posts |
 		getNextCollectionItem(page) %} {%- set previousPost =
 		collections.posts | getPreviousCollectionItem(page) %} {%- if nextPost

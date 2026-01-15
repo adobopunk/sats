@@ -3,34 +3,53 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Blog Name</title>
-    <meta name="description" content="I am writing about my experiences as a naval navel-gazer.">
+    <title>Staring at the Sun | Alternative Rock Band</title>
+    <meta name="description" content="The Sun sees all. Can you hear it?">
     <link rel="stylesheet" href="/css/styles.css">
-    <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="Your Blog Name">
-    <link rel="alternate" href="/feed/feed.json" type="application/json" title="Your Blog Name">
+    <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="Staring at the Sun | Alternative Rock Band">
+    <link rel="alternate" href="/feed/feed.json" type="application/json" title="Staring at the Sun | Alternative Rock Band">
     <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Your Blog Name">
-    <meta property="og:url" content="https://example.com/page-list/1/">
-    <meta property="og:title" content="Your Blog Name">
-    <meta property="og:description" content="I am writing about my experiences as a naval navel-gazer.">
+    <meta property="og:site_name" content="Staring at the Sun | Alternative Rock Band">
+    <meta property="og:url" content="https://sats.band/page-list/1/">
+    <meta property="og:title" content="Staring at the Sun | Alternative Rock Band">
+    <meta property="og:description" content="The Sun sees all. Can you hear it?">
 
     <meta property="twitter:card" content="summary">
-    <meta property="twitter:url" content="https://example.com/page-list/1/">
-    <meta property="twitter:title" content="Your Blog Name">
-    <meta property="twitter:description" content="I am writing about my experiences as a naval navel-gazer.">
+    <meta property="twitter:url" content="https://sats.band/page-list/1/">
+    <meta property="twitter:title" content="Staring at the Sun | Alternative Rock Band">
+    <meta property="twitter:description" content="The Sun sees all. Can you hear it?">
+
+    <link rel="icon" type="image/png" href="/assets/favicon/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/svg+xml" href="/assets/favicon/favicon.svg" />
+<link rel="shortcut icon" href="/assets/favicon/favicon.ico" />
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png" />
+<link rel="manifest" href="/assets/favicon/site.webmanifest" />
   </head>
-  <body>
+  <body >
+    <div class="crt-overlay">
+      <div class="crt-scanlines"></div>
+      <div class="crt-glow" id="crtGlow"></div>
+      <div class="crt-distortion" id="crtDistortion"></div>
+     </div>
+  </div>
+
+    <div class="video-bg-wrapper">
+      <video autoplay muted loop playsinline class="video-bg desktop-video" poster="/img/poster.webp">
+        <source src="https://tifajade.b-cdn.net/S.A.T.S./video-bg.webm" type="video/webm">
+        <source src="https://tifajade.b-cdn.net/S.A.T.S./video-bg.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <img src="/img/bg-mobile.webp" alt="Video fallback" class="video-bg mobile-image">
+    </div>
     <header>
-        <span class=""><a href="/">home</a> - </span>
-        <span class=""><a href="/posts">posts</a> - </span>
-        <span class=""><a href="/about">about</a> - </span>
-        <span class=""><a href="/contact">contact</a> - </span>
-        <span class=""><a href="/feed/feed.xml">rss</a> - </span>
-        <span class=""><a href="/search">search</a></span>
+        <span class=""><a href="/">home</a>  |  </span>
+        <span class=""><a href="/about">about</a>  |  </span>
+        <span class=""><a href="/press">press</a>  |  </span>
+        <span class=""><a href="/contact">contact</a></span>
     </header>
 
     <main class="tmpl-home">
-      <h1>Your Blog Name</h1>
+      <h1>Staring at the Sun | Alternative Rock Band</h1>
 <table>
   <thead>
     <tr>
@@ -40,16 +59,43 @@
   </thead>
   <tbody>
   <tr>
-    <td><a href="/tags/number-2/"><code>/tags/number-2/</code></a></td>
-    <td>Tagged “number 2”</td>
-  </tr>
-  <tr>
-    <td><a href="/tags/posts-with-two-tags/"><code>/tags/posts-with-two-tags/</code></a></td>
-    <td>Tagged “posts with two tags”</td>
+    <td><a href="/posts/260213-Rays/"><code>/posts/260213-Rays/</code></a></td>
+    <td>Ray&#39;s Golden Lion</td>
   </tr>
   </tbody>
 </table>
 
+
+
+
     </main>
+<footer class="sticky-footer">
+
+	<a href="/"><picture>
+    <source srcset="https://tifajade.b-cdn.net/S.A.T.S./logo.gif" type="image/gif">
+    <source srcset="/img/logo.webp" type="image/webp">
+   
+    <img src="/img/logo.gif" alt="Logo" class="footer-logo" />
+  </picture></a>
+
+  <link rel="stylesheet" href="https://cdn.plyr.io/3.7.8/plyr.css" />
+  <!-- <audio id="player" controls>
+    <source src="music/song.mp3" type="audio/mp3" />
+  </audio>
+  <script src="https://cdn.plyr.io/3.7.8/plyr.polyfilled.js"></script>
+  <script>
+    const player = new Plyr('#player');
+  </script> -->
+  
+	<span>©<span id="footer-year"></span> SATS</span>
+  
+</footer><script src="/js/year.js"></script>
+<script src="/js/crt.js"></script>
+
+
+
   </body>
+
+
+  
 </html>

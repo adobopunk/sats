@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-	<title>Staring at the Sun | </title>
-	<subtitle>The Sun sees all.</subtitle>
+	<title>Staring at the Sun | Alternative Rock Band</title>
+	<subtitle>The Sun sees all. Can you hear it?</subtitle>
 	
 	<link href="https://sats.band/feed/feed.xml" rel="self"/>
 	<link href="https://sats.band/"/>
 	<updated>2026-02-13T00:00:00Z</updated>
-	<id>https://example.com/</id>
+	<id>https://sats.band/</id>
 	<author>
-		<name>Your Name Here</name>
-		<email>youremailaddress@example.com</email>
+		<name>Tifa Jade</name>
+		<email>tj@sats.band</email>
 	</author>
 	
 	<entry>

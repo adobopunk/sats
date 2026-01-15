@@ -1,22 +1,22 @@
 {
-	"title": "Staring at the Sun | ",
+	"title": "Staring at the Sun | Alternative Rock Band",
 	"url": "https://sats.band/",
 	"language": "en",
-	"description": "The Sun sees all",
+	"description": "The Sun sees all. Can you hear it?",
 	"feed": {
-		"subtitle": "The Sun sees all.",
+		"subtitle": "The Sun sees all. Can you hear it?",
 		"filename": "feed.xml",
 		"path": "/feed/feed.xml",
-		"id": "https://example.com/"
+		"id": "https://sats.band/"
 	},
 	"jsonfeed": {
 		"path": "/feed/feed.json",
-		"url": "https://example.com/feed/feed.json"
+		"url": "https://sats.band/feed/feed.json"
 	},
 	"author": {
-		"name": "Your Name Here",
-		"email": "youremailaddress@example.com",
-		"url": "https://example.com/about-me/"
+		"name": "Tifa Jade",
+		"email": "tj@sats.band",
+		"url": "https://sats.band/about-me/"
 	},
 	"nav": [
 		{

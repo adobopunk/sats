@@ -429,3 +429,7 @@ video {
 	height: auto;
 	display: block;
 }
+
+.socials {
+	margin-block: 5%;
+}
