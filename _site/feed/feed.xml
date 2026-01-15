@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-	<title>Staring at the Sun</title>
+	<title>Staring at the Sun | </title>
 	<subtitle>The Sun sees all.</subtitle>
 	
 	<link href="https://sats.band/feed/feed.xml" rel="self"/>
 	<link href="https://sats.band/"/>
-	<updated>2025-10-11T00:00:00Z</updated>
+	<updated>2026-02-13T00:00:00Z</updated>
 	<id>https://example.com/</id>
 	<author>
 		<name>Your Name Here</name>
@@ -13,12 +13,116 @@
 	</author>
 	
 	<entry>
+		<title>Ray&#39;s Golden Lion</title>
+		<link href="https://sats.band/posts/260213-Rays/"/>
+		<updated>2026-02-13T00:00:00Z</updated>
+		<id>https://sats.band/posts/260213-Rays/</id>
+		<content type="html">&lt;p&gt;February 13, 2026&lt;/p&gt;
+&lt;p&gt;Richland, WA&lt;/p&gt;
+&lt;p&gt;Ray&#39;s Golden Lion&lt;/p&gt;
+&lt;p&gt;with&lt;/p&gt;
+&lt;p&gt;Sofa Sofa&lt;/p&gt;
+&lt;p&gt;Jumbotron&lt;/p&gt;
+&lt;p&gt;Heel Klick&lt;/p&gt;
+&lt;picture&gt;
+    &lt;!-- &lt;source srcset=&quot;/img/osco1025.webp&quot; type=&quot;image/webp&quot;&gt;
+    &lt;source srcset=&quot;/img/osco1025.jpg&quot; type=&quot;image/jpeg&quot;&gt; --&gt;
+    &lt;img src=&quot;https://sats.band/img/shows/260213-Rays.jpg&quot; alt=&quot;Ray&#39;s Golden Lion - Feb 13th 7:30pm - 15$ cover all ages - Staring At The Sun - Sofa Sofa - Jumbotron - Heel Klick&quot; /&gt;
+  &lt;/picture&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Ray&#39;s Golden Lion</title>
+		<link href="https://sats.band/posts/251226-Rays/"/>
+		<updated>2025-12-26T00:00:00Z</updated>
+		<id>https://sats.band/posts/251226-Rays/</id>
+		<content type="html">&lt;p&gt;December 26, 2025&lt;/p&gt;
+&lt;p&gt;Richland, WA&lt;/p&gt;
+&lt;p&gt;End Of The Year Bash&lt;/p&gt;
+&lt;p&gt;with&lt;/p&gt;
+&lt;p&gt;Stonehead&lt;/p&gt;
+&lt;p&gt;Spare&lt;/p&gt;
+&lt;p&gt;Radstag&lt;/p&gt;
+&lt;img src=&quot;https://sats.band/img/publicity/251226-Rays.jpeg&quot; alt=&quot;&quot; /&gt;
+&lt;picture&gt;
+    &lt;!-- &lt;source srcset=&quot;/img/osco1025.webp&quot; type=&quot;image/webp&quot;&gt;
+    &lt;source srcset=&quot;/img/osco1025.jpg&quot; type=&quot;image/jpeg&quot;&gt; --&gt;
+    &lt;img src=&quot;https://sats.band/img/shows/251226-Rays.jpg&quot; alt=&quot;Stonehead - Spade - Rad Stag - Staring At The Sun - Miramontes - Ray&#39;s Golden Lion - All Ages Rock Show - 7PM / $15 - 12-26-25 End of the Year Bash&quot; /&gt;
+  &lt;/picture&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>The Big Dipper</title>
+		<link href="https://sats.band/posts/251220-bigdipper/"/>
+		<updated>2025-12-20T00:00:00Z</updated>
+		<id>https://sats.band/posts/251220-bigdipper/</id>
+		<content type="html">&lt;p&gt;December 20, 2025&lt;/p&gt;
+&lt;p&gt;Spokane, WA&lt;/p&gt;
+&lt;p&gt;with&lt;/p&gt;
+&lt;p&gt;Trash Planet&lt;/p&gt;
+&lt;p&gt;Running From Nothing&lt;/p&gt;
+&lt;p&gt;A Quiet Life&lt;/p&gt;
+&lt;img src=&quot;https://sats.band/img/publicity/BigDipper.jpeg&quot; alt=&quot;&quot; /&gt;
+&lt;picture&gt;
+    &lt;!-- &lt;source srcset=&quot;/img/osco1025.webp&quot; type=&quot;image/webp&quot;&gt;
+    &lt;source srcset=&quot;/img/osco1025.jpg&quot; type=&quot;image/jpeg&quot;&gt; --&gt;
+    &lt;img src=&quot;https://sats.band/img/shows/251220-BigDipper.jpg&quot; alt=&quot;Trash Planet - Running From Nothing - Staring At The Sun - A Quiet Life - DOS $15 - December 20th - Doors 7pm - The Big Dipper - Music 730PM&quot; /&gt;
+  &lt;/picture&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Yakima Makerspace</title>
+		<link href="https://sats.band/posts/251128-makerspace/"/>
+		<updated>2025-11-28T00:00:00Z</updated>
+		<id>https://sats.band/posts/251128-makerspace/</id>
+		<content type="html">&lt;p&gt;November 28, 2025&lt;/p&gt;
+&lt;p&gt;Yakima, WA&lt;/p&gt;
+&lt;p&gt;with&lt;/p&gt;
+&lt;p&gt;A Quiet Life&lt;/p&gt;
+&lt;p&gt;Coming Down&lt;/p&gt;
+&lt;p&gt;Franklin Hill&lt;/p&gt;
+&lt;video &lt;p=&quot;&quot;&gt;autoplay
+loop
+muted
+playsinline
+poster=&amp;quot;/img/shows/251128_MakerSpace.jpg&amp;quot;
+width=&amp;quot;640&amp;quot;
+height=&amp;quot;360&amp;quot;&lt;p&gt;&lt;/p&gt;
+&lt;blockquote&gt;&lt;/blockquote&gt;
+  &lt;source src=&quot;https://sats.band/img/shows/251128_MakerSpace.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+  Your browser does not support the video tag.
+&lt;/video&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Bleed and Bloom</title>
+		<link href="https://sats.band/posts/251122-bleednbloom/"/>
+		<updated>2025-11-22T00:00:00Z</updated>
+		<id>https://sats.band/posts/251122-bleednbloom/</id>
+		<content type="html">&lt;p&gt;November 22, 2025&lt;/p&gt;
+&lt;p&gt;The Wasteland&lt;/p&gt;
+&lt;p&gt;Walla Walla, WA&lt;/p&gt;
+&lt;p&gt;with&lt;/p&gt;
+&lt;p&gt;Antimxb&lt;/p&gt;
+&lt;p&gt;Heel Klick&lt;/p&gt;
+&lt;picture&gt;
+    &lt;!-- &lt;source srcset=&quot;/img/osco1025.webp&quot; type=&quot;image/webp&quot;&gt;
+    &lt;source srcset=&quot;/img/osco1025.jpg&quot; type=&quot;image/jpeg&quot;&gt; --&gt;
+    &lt;img src=&quot;https://sats.band/img/shows/251122_Bleednbloom.jpg&quot; alt=&quot;Bleed and Bloom - House Show - Benefiting TCD and Black Apron - Staring at the Sun - Antimxb - Heel Klick - 811 E Issacs Ave - Walla Walla, WA, 99362 - Sat Nov 22 6-10 PM - Accepting Food and Cash Donations&quot; /&gt;
+  &lt;/picture&gt;
+</content>
+	</entry>
+	
+	<entry>
 		<title>4 All Of Us</title>
 		<link href="https://sats.band/posts/251011-4allofus/"/>
 		<updated>2025-10-11T00:00:00Z</updated>
 		<id>https://sats.band/posts/251011-4allofus/</id>
 		<content type="html">&lt;p&gt;October 11, 2025&lt;/p&gt;
-&lt;p&gt;6pm - 10pm&lt;/p&gt;
 &lt;p&gt;Flying Z Farm&lt;/p&gt;
 &lt;p&gt;Benton City, WA&lt;/p&gt;
 &lt;p&gt;with&lt;/p&gt;
@@ -38,7 +142,6 @@
 		<updated>2025-09-07T00:00:00Z</updated>
 		<id>https://sats.band/posts/250907-together/</id>
 		<content type="html">&lt;p&gt;September 7, 2025&lt;/p&gt;
-&lt;p&gt;6pm - 9pm&lt;/p&gt;
 &lt;p&gt;Fingernail at Howard Amon&lt;/p&gt;
 &lt;p&gt;Richland, WA&lt;/p&gt;
 &lt;p&gt;with&lt;/p&gt;
@@ -58,7 +161,6 @@
 		<updated>2025-08-09T00:00:00Z</updated>
 		<id>https://sats.band/posts/250809-bvf/</id>
 		<content type="html">&lt;p&gt;August 9, 2025&lt;/p&gt;
-&lt;p&gt;6:20pm&lt;/p&gt;
 &lt;p&gt;Emerald of Siam&lt;/p&gt;
 &lt;p&gt;Richland, WA&lt;/p&gt;
 &lt;picture&gt;

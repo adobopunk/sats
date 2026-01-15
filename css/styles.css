@@ -423,3 +423,9 @@ ul {
 		display: block;
 	}
 }
+
+video {
+	width: 100%;
+	height: auto;
+	display: block;
+}

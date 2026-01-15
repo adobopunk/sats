@@ -4,11 +4,10 @@ title: About the Band
 templateClass: tmpl-post
 ---
 
-Staring at the Sun is an alternative rock band from Richland, WA.
+<p>
+  Staring At The Sun assembled from fragments, signals, and things overheard on illegal transmissions. Their songs have been interpreted by listeners as quiet warnings or memories that don’t belong to them. The band has never confirmed either.
 
-<picture>
-  <source srcset="/img/about.webp" type="image/webp">
-  <source srcset="/img/about.JPG" type="image/jpeg">
-  <img src="/img/about.webp" alt="A strange man dressed as Solid Snake plays guitar while a man dressed as Michael Myers plays drums behind him. A guitar player and bass player perform in the background.">
-</picture>
-<p>Staring At The Sun performs at the OSCO benefit concert for Tri-Cities Distribution, Oct. 11, 2025</p>
+</p>
+<p>If you hear something familiar that you can’t place, don’t try to understand it. If the songs feel like they’re watching you, stop listening. If you notice the sun lingering longer than it should, it’s already too late. Something vast is trying to communicate through the void.
+</p>
+  <img src="/img/publicity/865A0957.jpg" alt="">

@@ -17,53 +17,38 @@
   </url>
   
   <url>
-    <loc>https://sats.band/about/</loc>
-    <lastmod>2025-09-01</lastmod>
-  </url>
-  
-  <url>
     <loc>https://sats.band/posts/</loc>
-    <lastmod>2025-09-01</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://sats.band/contact/</loc>
-    <lastmod>2025-09-01</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://sats.band/</loc>
-    <lastmod>2025-09-01</lastmod>
+    <lastmod>2025-09-02</lastmod>
   </url>
   
   <url>
     <loc>https://sats.band/page-list/</loc>
-    <lastmod>2025-09-01</lastmod>
+    <lastmod>2025-09-02</lastmod>
   </url>
   
   <url>
     <loc>https://sats.band/search/</loc>
-    <lastmod>2025-09-01</lastmod>
+    <lastmod>2025-09-02</lastmod>
   </url>
   
   <url>
     <loc>https://sats.band/tags/</loc>
-    <lastmod>2025-09-01</lastmod>
+    <lastmod>2025-09-02</lastmod>
   </url>
   
   <url>
     <loc>https://sats.band/tags/music/</loc>
-    <lastmod>2025-09-01</lastmod>
+    <lastmod>2025-09-02</lastmod>
   </url>
   
   <url>
     <loc>https://sats.band/tags/single/</loc>
-    <lastmod>2025-09-01</lastmod>
+    <lastmod>2025-09-02</lastmod>
   </url>
   
   <url>
     <loc>https://sats.band/tags/show/</loc>
-    <lastmod>2025-09-01</lastmod>
+    <lastmod>2025-09-02</lastmod>
   </url>
   
   <url>
@@ -77,7 +62,47 @@
   </url>
   
   <url>
+    <loc>https://sats.band/posts/251122-bleednbloom/</loc>
+    <lastmod>2025-11-22</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sats.band/posts/251128-makerspace/</loc>
+    <lastmod>2025-11-28</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sats.band/posts/251220-bigdipper/</loc>
+    <lastmod>2025-12-20</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sats.band/posts/251226-Rays/</loc>
+    <lastmod>2025-12-26</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sats.band/about/</loc>
+    <lastmod>2026-01-15</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sats.band/contact/</loc>
+    <lastmod>2026-01-15</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sats.band/</loc>
+    <lastmod>2026-01-15</lastmod>
+  </url>
+  
+  <url>
     <loc>https://sats.band/press/</loc>
-    <lastmod>2025-10-13</lastmod>
+    <lastmod>2026-01-15</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sats.band/posts/260213-Rays/</loc>
+    <lastmod>2026-02-13</lastmod>
   </url>
 </urlset>

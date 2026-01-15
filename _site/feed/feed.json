@@ -1,6 +1,6 @@
 {
   "version": "https://jsonfeed.org/version/1.1",
-  "title": "Staring at the Sun",
+  "title": "Staring at the Sun | ",
   "language": "en",
   "home_page_url": "https://sats.band/",
   "feed_url": "https://example.com/feed/feed.json",
@@ -10,22 +10,52 @@
     "url": "https://example.com/about-me/"
   },
   "items": [{
+      "id": "https://sats.band/posts/260213-Rays/",
+      "url": "https://sats.band/posts/260213-Rays/",
+      "title": "Ray&#39;s Golden Lion",
+      "content_html": "<p>February 13, 2026</p>\n<p>Richland, WA</p>\n<p>Ray's Golden Lion</p>\n<p>with</p>\n<p>Sofa Sofa</p>\n<p>Jumbotron</p>\n<p>Heel Klick</p>\n<picture>\n    <!-- <source srcset=\"/img/osco1025.webp\" type=\"image/webp\">\n    <source srcset=\"/img/osco1025.jpg\" type=\"image/jpeg\"> -->\n    <img src=\"https://sats.band/img/shows/260213-Rays.jpg\" alt=\"Ray's Golden Lion - Feb 13th 7:30pm - 15$ cover all ages - Staring At The Sun - Sofa Sofa - Jumbotron - Heel Klick\" />\n  </picture>\n",
+      "date_published": "2026-02-13T00:00:00Z"
+    },{
+      "id": "https://sats.band/posts/251226-Rays/",
+      "url": "https://sats.band/posts/251226-Rays/",
+      "title": "Ray&#39;s Golden Lion",
+      "content_html": "<p>December 26, 2025</p>\n<p>Richland, WA</p>\n<p>End Of The Year Bash</p>\n<p>with</p>\n<p>Stonehead</p>\n<p>Spare</p>\n<p>Radstag</p>\n<img src=\"https://sats.band/img/publicity/251226-Rays.jpeg\" alt=\"\" />\n<picture>\n    <!-- <source srcset=\"/img/osco1025.webp\" type=\"image/webp\">\n    <source srcset=\"/img/osco1025.jpg\" type=\"image/jpeg\"> -->\n    <img src=\"https://sats.band/img/shows/251226-Rays.jpg\" alt=\"Stonehead - Spade - Rad Stag - Staring At The Sun - Miramontes - Ray's Golden Lion - All Ages Rock Show - 7PM / $15 - 12-26-25 End of the Year Bash\" />\n  </picture>\n",
+      "date_published": "2025-12-26T00:00:00Z"
+    },{
+      "id": "https://sats.band/posts/251220-bigdipper/",
+      "url": "https://sats.band/posts/251220-bigdipper/",
+      "title": "The Big Dipper",
+      "content_html": "<p>December 20, 2025</p>\n<p>Spokane, WA</p>\n<p>with</p>\n<p>Trash Planet</p>\n<p>Running From Nothing</p>\n<p>A Quiet Life</p>\n<img src=\"https://sats.band/img/publicity/BigDipper.jpeg\" alt=\"\" />\n<picture>\n    <!-- <source srcset=\"/img/osco1025.webp\" type=\"image/webp\">\n    <source srcset=\"/img/osco1025.jpg\" type=\"image/jpeg\"> -->\n    <img src=\"https://sats.band/img/shows/251220-BigDipper.jpg\" alt=\"Trash Planet - Running From Nothing - Staring At The Sun - A Quiet Life - DOS $15 - December 20th - Doors 7pm - The Big Dipper - Music 730PM\" />\n  </picture>\n",
+      "date_published": "2025-12-20T00:00:00Z"
+    },{
+      "id": "https://sats.band/posts/251128-makerspace/",
+      "url": "https://sats.band/posts/251128-makerspace/",
+      "title": "Yakima Makerspace",
+      "content_html": "<p>November 28, 2025</p>\n<p>Yakima, WA</p>\n<p>with</p>\n<p>A Quiet Life</p>\n<p>Coming Down</p>\n<p>Franklin Hill</p>\n<video <p=\"\">autoplay\nloop\nmuted\nplaysinline\nposter=&quot;/img/shows/251128_MakerSpace.jpg&quot;\nwidth=&quot;640&quot;\nheight=&quot;360&quot;<p></p>\n<blockquote></blockquote>\n  <source src=\"https://sats.band/img/shows/251128_MakerSpace.mp4\" type=\"video/mp4\" />\n  Your browser does not support the video tag.\n</video>\n",
+      "date_published": "2025-11-28T00:00:00Z"
+    },{
+      "id": "https://sats.band/posts/251122-bleednbloom/",
+      "url": "https://sats.band/posts/251122-bleednbloom/",
+      "title": "Bleed and Bloom",
+      "content_html": "<p>November 22, 2025</p>\n<p>The Wasteland</p>\n<p>Walla Walla, WA</p>\n<p>with</p>\n<p>Antimxb</p>\n<p>Heel Klick</p>\n<picture>\n    <!-- <source srcset=\"/img/osco1025.webp\" type=\"image/webp\">\n    <source srcset=\"/img/osco1025.jpg\" type=\"image/jpeg\"> -->\n    <img src=\"https://sats.band/img/shows/251122_Bleednbloom.jpg\" alt=\"Bleed and Bloom - House Show - Benefiting TCD and Black Apron - Staring at the Sun - Antimxb - Heel Klick - 811 E Issacs Ave - Walla Walla, WA, 99362 - Sat Nov 22 6-10 PM - Accepting Food and Cash Donations\" />\n  </picture>\n",
+      "date_published": "2025-11-22T00:00:00Z"
+    },{
       "id": "https://sats.band/posts/251011-4allofus/",
       "url": "https://sats.band/posts/251011-4allofus/",
       "title": "4 All Of Us",
-      "content_html": "<p>October 11, 2025</p>\n<p>6pm - 10pm</p>\n<p>Flying Z Farm</p>\n<p>Benton City, WA</p>\n<p>with</p>\n<p>Hayes Noble</p>\n<p>A Quiet Life</p>\n<picture>\n    <source srcset=\"https://sats.band/img/osco1025.webp\" type=\"image/webp\" />\n    <source srcset=\"https://sats.band/img/osco1025.jpg\" type=\"image/jpeg\" />\n    <img src=\"https://sats.band/img/osco1025.webp\" alt=\"4 All Of Us! Costume Party Benefit Concert. October 11th, 6 to 10pm @ Flying Z - 37206 Kendall Rd, Benton City. Accepting Donations for TCD. Staring at the Sun, Hayes Noble, Karaoke After Party! TCD in Tri-Cities Food Co-Op, Richland WA @TriCitiesDistribution on Instagram.\" />\n  </picture>\n",
+      "content_html": "<p>October 11, 2025</p>\n<p>Flying Z Farm</p>\n<p>Benton City, WA</p>\n<p>with</p>\n<p>Hayes Noble</p>\n<p>A Quiet Life</p>\n<picture>\n    <source srcset=\"https://sats.band/img/osco1025.webp\" type=\"image/webp\" />\n    <source srcset=\"https://sats.band/img/osco1025.jpg\" type=\"image/jpeg\" />\n    <img src=\"https://sats.band/img/osco1025.webp\" alt=\"4 All Of Us! Costume Party Benefit Concert. October 11th, 6 to 10pm @ Flying Z - 37206 Kendall Rd, Benton City. Accepting Donations for TCD. Staring at the Sun, Hayes Noble, Karaoke After Party! TCD in Tri-Cities Food Co-Op, Richland WA @TriCitiesDistribution on Instagram.\" />\n  </picture>\n",
       "date_published": "2025-10-11T00:00:00Z"
     },{
       "id": "https://sats.band/posts/250907-together/",
       "url": "https://sats.band/posts/250907-together/",
       "title": "Together",
-      "content_html": "<p>September 7, 2025</p>\n<p>6pm - 9pm</p>\n<p>Fingernail at Howard Amon</p>\n<p>Richland, WA</p>\n<p>with</p>\n<p>ooooz</p>\n<p>SuddenlyTuesday</p>\n<picture>\n    <source srcset=\"https://sats.band/img/together.webp\" type=\"image/webp\" />\n    <source srcset=\"https://sats.band/img/together.JPG\" type=\"image/jpeg\" />\n    <img src=\"https://sats.band/img/together.JPG\" alt=\"'Together. Bands!!: SuddenlyTuesday, ooooz, Staring at the Sun. Protest/Concert!! Sept 7th, 6-9pm. @ Howard Amon Fingernail. Snacks & Water & Info on local orgs provided!! Our goals!! Raise money for the PCRF. Bring people together through music. Raise awareness to the genocide in Gaza/Dictatorship path of the U.S. OSCO - off-screen community outreach.'\" />\n  </picture>\n",
+      "content_html": "<p>September 7, 2025</p>\n<p>Fingernail at Howard Amon</p>\n<p>Richland, WA</p>\n<p>with</p>\n<p>ooooz</p>\n<p>SuddenlyTuesday</p>\n<picture>\n    <source srcset=\"https://sats.band/img/together.webp\" type=\"image/webp\" />\n    <source srcset=\"https://sats.band/img/together.JPG\" type=\"image/jpeg\" />\n    <img src=\"https://sats.band/img/together.JPG\" alt=\"'Together. Bands!!: SuddenlyTuesday, ooooz, Staring at the Sun. Protest/Concert!! Sept 7th, 6-9pm. @ Howard Amon Fingernail. Snacks & Water & Info on local orgs provided!! Our goals!! Raise money for the PCRF. Bring people together through music. Raise awareness to the genocide in Gaza/Dictatorship path of the U.S. OSCO - off-screen community outreach.'\" />\n  </picture>\n",
       "date_published": "2025-09-07T00:00:00Z"
     },{
       "id": "https://sats.band/posts/250809-bvf/",
       "url": "https://sats.band/posts/250809-bvf/",
       "title": "Battle Vest Fest",
-      "content_html": "<p>August 9, 2025</p>\n<p>6:20pm</p>\n<p>Emerald of Siam</p>\n<p>Richland, WA</p>\n<picture>\n    <source srcset=\"https://sats.band/img/bvf25.webp\" type=\"image/webp\" />\n    <source srcset=\"https://sats.band/img/bvf25.JPG\" type=\"image/jpeg\" />\n    <img src=\"https://sats.band/img/bvf25.JPG\" alt=\"'Emerald Stage: List of bands playing. Illustration of an elephant playing the drums, saying 'this lineup is unmatched!!' 2025 Battle Vest Fest, Saturday Aug 9th, 2025'\" />\n  </picture>\n",
+      "content_html": "<p>August 9, 2025</p>\n<p>Emerald of Siam</p>\n<p>Richland, WA</p>\n<picture>\n    <source srcset=\"https://sats.band/img/bvf25.webp\" type=\"image/webp\" />\n    <source srcset=\"https://sats.band/img/bvf25.JPG\" type=\"image/jpeg\" />\n    <img src=\"https://sats.band/img/bvf25.JPG\" alt=\"'Emerald Stage: List of bands playing. Illustration of an elephant playing the drums, saying 'this lineup is unmatched!!' 2025 Battle Vest Fest, Saturday Aug 9th, 2025'\" />\n  </picture>\n",
       "date_published": "2025-08-09T00:00:00Z"
     },{
       "id": "https://sats.band/posts/250430-crystallized/",

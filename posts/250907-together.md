@@ -7,7 +7,6 @@ layout: layouts/post.njk
 ---
 
 <p>September 7, 2025</p>
-<p>6pm - 9pm</p>
 <p>Fingernail at Howard Amon</p>
 <p>Richland, WA</p>
 <p>with</p>
