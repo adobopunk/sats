@@ -1,5 +1,5 @@
 <ul class="nav">
-	{% for post in postslist | reverse %}
+	{% for post in postslist %}
 	<li class="post">
 		{% if metadata.config.showDateList %}<time
 			datetime="{{ post.date | htmlDateString }}"
