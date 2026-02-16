@@ -37,17 +37,17 @@
   </url>
   
   <url>
-    <loc>https://sats.band/tags/show/</loc>
-    <lastmod>2025-09-02</lastmod>
-  </url>
-  
-  <url>
     <loc>https://sats.band/tags/music/</loc>
     <lastmod>2025-09-02</lastmod>
   </url>
   
   <url>
     <loc>https://sats.band/tags/single/</loc>
+    <lastmod>2025-09-02</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sats.band/tags/show/</loc>
     <lastmod>2025-09-02</lastmod>
   </url>
   
@@ -104,5 +104,15 @@
   <url>
     <loc>https://sats.band/posts/260213-Rays/</loc>
     <lastmod>2026-02-13</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sats.band/shirt-friends/</loc>
+    <lastmod>2026-02-16</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sats.band/shirt-orders/</loc>
+    <lastmod>2026-02-16</lastmod>
   </url>
 </urlset>
