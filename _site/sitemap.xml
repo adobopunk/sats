@@ -107,17 +107,27 @@
   </url>
   
   <url>
-    <loc>https://sats.band/shirt-friends/</loc>
+    <loc>https://sats.band/archive/shirt-friends/</loc>
     <lastmod>2026-02-16</lastmod>
   </url>
   
   <url>
-    <loc>https://sats.band/shirt-orders/</loc>
+    <loc>https://sats.band/archive/shirt-orders/</loc>
     <lastmod>2026-02-16</lastmod>
   </url>
   
   <url>
     <loc>https://sats.band/thank-you/</loc>
     <lastmod>2026-02-16</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sats.band/shirt-friends/</loc>
+    <lastmod>2026-02-24</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sats.band/shirt-orders/</loc>
+    <lastmod>2026-02-24</lastmod>
   </url>
 </urlset>
