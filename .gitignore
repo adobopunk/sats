@@ -5,7 +5,6 @@ _site/          # 11ty's default output directory
 
 # === Dependencies ===
 node_modules/
-package-lock.json
 yarn.lock
 
 # === Build Artifacts ===
