@@ -10,6 +10,12 @@
     "url": "https://sats.band/about-me/"
   },
   "items": [{
+      "id": "https://sats.band/posts/260605-emerald/",
+      "url": "https://sats.band/posts/260605-emerald/",
+      "title": "Emerald of Siam",
+      "content_html": "<p>June 5, 2026</p>\n<p>Richland, WA</p>\n<p>Emerald of Siam</p>\n<p>with</p>\n<p>Get 'Em Tiger</p>\n<p>Cadejos</p>\n<picture>\n    <!-- <source srcset=\"/img/osco1025.webp\" type=\"image/webp\">\n    <source srcset=\"/img/osco1025.jpg\" type=\"image/jpeg\"> -->\n    <img src=\"https://sats.band/img/shows/260605_sats_emerald_poster.jpeg\" alt=\"Ray's Golden Lion - Staring At The Sun - Sofa Sofa - Jumbotron - Heel Klick\" />\n  </picture>\n",
+      "date_published": "2026-02-13T00:00:00Z"
+    },{
       "id": "https://sats.band/posts/260213-Rays/",
       "url": "https://sats.band/posts/260213-Rays/",
       "title": "Ray&#39;s Golden Lion",
