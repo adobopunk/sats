@@ -5,12 +5,30 @@
 	
 	<link href="https://sats.band/feed/feed.xml" rel="self"/>
 	<link href="https://sats.band/"/>
-	<updated>2026-02-13T00:00:00Z</updated>
+	<updated>2026-08-14T00:00:00Z</updated>
 	<id>https://sats.band/</id>
 	<author>
 		<name>Tifa Jade</name>
 		<email>tj@sats.band</email>
 	</author>
+	
+	<entry>
+		<title>Emerald of Siam</title>
+		<link href="https://sats.band/posts/260814-Emerald/"/>
+		<updated>2026-08-14T00:00:00Z</updated>
+		<id>https://sats.band/posts/260814-Emerald/</id>
+		<content type="html">&lt;p&gt;August 8, 2026&lt;/p&gt;
+&lt;p&gt;Richland, WA&lt;/p&gt;
+&lt;p&gt;Emerald of Siam&lt;/p&gt;
+&lt;p&gt;with&lt;/p&gt;
+&lt;p&gt;A Quiet Life&lt;/p&gt;
+&lt;picture&gt;
+  &lt;!-- &lt;source srcset=&quot;/img/osco1025.webp&quot; type=&quot;image/webp&quot;&gt;
+    &lt;source srcset=&quot;/img/osco1025.jpg&quot; type=&quot;image/jpeg&quot;&gt; --&gt;
+    &lt;img src=&quot;https://sats.band/img/shows/260814-emerald.jpg&quot; alt=&quot;A Quiet Life. Staring At The Sun. Friday August 14th. Emerald of Siam Benefit Show. 8:30PM Doors. 9pm Music. $12. 1314 Jadwin Ave. Richland WA. A dark blurry concert photo in the background.&quot; /&gt;
+  &lt;/picture&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>Emerald of Siam</title>
@@ -26,7 +44,7 @@
 &lt;picture&gt;
     &lt;!-- &lt;source srcset=&quot;/img/osco1025.webp&quot; type=&quot;image/webp&quot;&gt;
     &lt;source srcset=&quot;/img/osco1025.jpg&quot; type=&quot;image/jpeg&quot;&gt; --&gt;
-    &lt;img src=&quot;https://sats.band/img/shows/260605_sats_emerald_poster.jpeg&quot; alt=&quot;Ray&#39;s Golden Lion - Staring At The Sun - Sofa Sofa - Jumbotron - Heel Klick&quot; /&gt;
+    &lt;img src=&quot;https://sats.band/img/shows/260605_sats_emerald_poster.jpeg&quot; alt=&quot;Get Em Tiger, Staring At The Sun, Cadejos. 9pm all ages until 11pm. $10, June 5th. Emerald of Siam. A monochrome illustration of a large black dog chained to a sleeping man beneath a tree, holding a bottle in his left hand and his hat draped over his face.&quot; /&gt;
   &lt;/picture&gt;
 </content>
 	</entry>

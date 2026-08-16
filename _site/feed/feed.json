@@ -10,10 +10,16 @@
     "url": "https://sats.band/about-me/"
   },
   "items": [{
+      "id": "https://sats.band/posts/260814-Emerald/",
+      "url": "https://sats.band/posts/260814-Emerald/",
+      "title": "Emerald of Siam",
+      "content_html": "<p>August 8, 2026</p>\n<p>Richland, WA</p>\n<p>Emerald of Siam</p>\n<p>with</p>\n<p>A Quiet Life</p>\n<picture>\n  <!-- <source srcset=\"/img/osco1025.webp\" type=\"image/webp\">\n    <source srcset=\"/img/osco1025.jpg\" type=\"image/jpeg\"> -->\n    <img src=\"https://sats.band/img/shows/260814-emerald.jpg\" alt=\"A Quiet Life. Staring At The Sun. Friday August 14th. Emerald of Siam Benefit Show. 8:30PM Doors. 9pm Music. $12. 1314 Jadwin Ave. Richland WA. A dark blurry concert photo in the background.\" />\n  </picture>\n",
+      "date_published": "2026-08-14T00:00:00Z"
+    },{
       "id": "https://sats.band/posts/260605-emerald/",
       "url": "https://sats.band/posts/260605-emerald/",
       "title": "Emerald of Siam",
-      "content_html": "<p>June 5, 2026</p>\n<p>Richland, WA</p>\n<p>Emerald of Siam</p>\n<p>with</p>\n<p>Get 'Em Tiger</p>\n<p>Cadejos</p>\n<picture>\n    <!-- <source srcset=\"/img/osco1025.webp\" type=\"image/webp\">\n    <source srcset=\"/img/osco1025.jpg\" type=\"image/jpeg\"> -->\n    <img src=\"https://sats.band/img/shows/260605_sats_emerald_poster.jpeg\" alt=\"Ray's Golden Lion - Staring At The Sun - Sofa Sofa - Jumbotron - Heel Klick\" />\n  </picture>\n",
+      "content_html": "<p>June 5, 2026</p>\n<p>Richland, WA</p>\n<p>Emerald of Siam</p>\n<p>with</p>\n<p>Get 'Em Tiger</p>\n<p>Cadejos</p>\n<picture>\n    <!-- <source srcset=\"/img/osco1025.webp\" type=\"image/webp\">\n    <source srcset=\"/img/osco1025.jpg\" type=\"image/jpeg\"> -->\n    <img src=\"https://sats.band/img/shows/260605_sats_emerald_poster.jpeg\" alt=\"Get Em Tiger, Staring At The Sun, Cadejos. 9pm all ages until 11pm. $10, June 5th. Emerald of Siam. A monochrome illustration of a large black dog chained to a sleeping man beneath a tree, holding a bottle in his left hand and his hat draped over his face.\" />\n  </picture>\n",
       "date_published": "2026-02-13T00:00:00Z"
     },{
       "id": "https://sats.band/posts/260213-Rays/",

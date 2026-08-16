@@ -15,5 +15,5 @@ layout: layouts/post.njk
 <picture>
     <!-- <source srcset="/img/osco1025.webp" type="image/webp">
     <source srcset="/img/osco1025.jpg" type="image/jpeg"> -->
-    <img src="/img/shows/260605_sats_emerald_poster.jpeg" alt="Ray's Golden Lion - Staring At The Sun - Sofa Sofa - Jumbotron - Heel Klick">
+    <img src="/img/shows/260605_sats_emerald_poster.jpeg" alt="Get Em Tiger, Staring At The Sun, Cadejos. 9pm all ages until 11pm. $10, June 5th. Emerald of Siam. A monochrome illustration of a large black dog chained to a sleeping man beneath a tree, holding a bottle in his left hand and his hat draped over his face.">
   </picture>
